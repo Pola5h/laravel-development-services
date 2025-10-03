@@ -1,4 +1,25 @@
 User-agent: *
 Allow: /
+Crawl-delay: 1
+
+# Important pages for Laravel development services
+Allow: /index.html
+Allow: /og-image.jpg
+Allow: /twitter-card.jpg
+
+# SEO optimization for Laravel developer Bangladesh
+# Kamruzzaman Polash - Expert Laravel Development Services
 
 Sitemap: https://pola5h.github.io/laravel-development-services/sitemap.xml
+
+# Additional search engines
+User-agent: Googlebot
+Allow: /
+Crawl-delay: 1
+
+User-agent: Bingbot
+Allow: /
+Crawl-delay: 2
+
+User-agent: DuckDuckBot
+Allow: /
